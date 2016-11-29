@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="blog" namespace="/blog" extends="struts-default,json-default">
+<!-- 		<global-results>
+			<result name="PERMISSION">/pages/errorPage/permissiondenied.jsp</result>
+			<result name="LOGIN" type="redirectAction">toLogin</result>
+			<result name="ERROR">/pages/errorPage/error.html</result>
+		</global-results> -->
+
+		<!-- actions -->
+<!-- 		<action name="toLogin" class="jp.co.pialab.rtm.action.login.LOGIN01Action"
+			method="toLogin">
+			<result name="LOGIN">/pages/account/ACC01.jsp</result>
+		</action>
+ -->
+		
+<!-- 
+		<action name="ACC02_01_addAccount_ajax" class="jp.co.pialab.rtm.action.account.ACC02_01Action"
+			method="addData">
+			<result name="SUCCESS" type="json">
+				<param name="root">returnInfos</param>
+			</result>
+			<result name="ERROR" type="json">
+				<param name="root">returnInfos</param>
+			</result>
+		</action> -->
+	</package>
+	
+</struts>
