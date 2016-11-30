@@ -13,11 +13,11 @@
 		</global-results> -->
 
 		<!-- actions -->
-<!-- 		<action name="toLogin" class="jp.co.pialab.rtm.action.login.LOGIN01Action"
-			method="toLogin">
-			<result name="LOGIN">/pages/account/ACC01.jsp</result>
+		<action name="index" class="home.blog.action.UserAction"
+			method="getUserByName">
+			<result name="SUCCESS">/page/index.jsp</result>
 		</action>
- -->
+
 		
 <!-- 
 		<action name="ACC02_01_addAccount_ajax" class="jp.co.pialab.rtm.action.account.ACC02_01Action"
